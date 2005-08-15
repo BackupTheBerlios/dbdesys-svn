@@ -1,0 +1,65 @@
+How to compile DBDeSys
+Version 1.0.0.1
+
+
+Windows:
+-------------------------------------------------------------------
+
+You will need:
+• DBDeSys Sources (DBDeSys1.0.0.1_CLXsource.zip)
+• DBDeSys Binary distribution (DBDeSys1.0.0.1_Setup.exe or 
+    DBDeSys1.0.0.1.zip)
+• Delphi7 (Professional or Enterprise) 
+
+Before you start compiling DBDeSys, download the latest 
+binary release and install it to any directory (e.g.
+c:\Program Files\DBDeSys)
+
+After you have extracted the source files (e.g. to 
+c:\Documents and Settings\Administrator\Personal Files\DBDeSys\Source)
+start Delphi and open a project. Select the DBDeSys.dpr
+from the source directory.
+
+Choose Project > Options from the Menu. The Project Options Dialog
+will appear. Select the Directories/Conditionals Tab.
+
+Browse the Output directory and select the directory the binary release
+was installed to (e.g. c:\Program Files\DBDeSys)
+
+Browse the Unit output directory and select a temporary directory (e.g.
+c:\Windows\Temp). Copy this directory to the BPL output directory and
+to the DCP output directory.
+
+Click OK an select Project > Build all Projects from the Menu. 
+DBDeSys will be compiled. Hit F9 to run DBDeSys.
+
+
+Linux:
+-------------------------------------------------------------------
+
+You will need:
+• DBDeSys Sources (DBDeSys1.0.0.1_CLXsource.zip)
+• DBDeSys Binary distribution (DBDeSys1.0.0.1.tar.gz)
+• Kylix3 (Professional or Enterprise) 
+
+Before you start compiling DBD4, download the latest 
+binary release and install it to any directory (e.g.
+~/DBDeSys)
+
+After you have extracted the source files (e.g. to 
+~/HumanProfile/DBDeSys/Source)
+start Kylix and open a project. Select the DBDeSys.dpr
+from the source directory.
+
+Choose Project > Options from the Menu. The Project Options Dialog
+will appear. Select the Directories/Conditionals Tab.
+
+Browse the Output directory and select the directory the binary release
+was installed to (e.g. ~/DBDeSys)
+
+Browse the Unit output directory and select a temporary directory (e.g.
+~/Temp). Copy this directory to the BPL output directory and
+to the DCP output directory.
+
+Click OK an select Project > Build all Projects from the Menu. 
+DBDeSys will be compiled. Hit F9 to run DBDeSys.
